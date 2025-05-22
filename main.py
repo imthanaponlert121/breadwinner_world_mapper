@@ -59,16 +59,16 @@ def pearl_mapping():
             #   Receive input from textbox
             x = int(x_entry.get())
             y = int(y_entry.get())
-            color = color_entry.get()
+            color = color_entry.get().capitalize()
             note = note_entry.get()
 
             if color not in COLORS:
-                messagebox.showerror(f"Invalid Color | Choose from: {COLORS}")
+                messagebox.showerror(f"Invalid Color", f"Choose from: {COLORS}")
                 return
 
             #   Set boundary for mapping
             if not (COORD_MIN <= x <= COORD_MAX and COORD_MIN <= y <= COORD_MAX):
-                messagebox.showerror(f"Out of Range | Coordinates must be between {COORD_MIN} and {COORD_MAX}")
+                messagebox.showerror(f"Out of Range", f"Coordinates must be between {COORD_MIN} and {COORD_MAX}")
                 return
 
             #   If note is empty, set default to display the coordinate
