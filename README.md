@@ -41,7 +41,7 @@ Save Mapped Picture option: Once clicked, it will let you choose a filepath to s
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/imthanaponlert121/breadwinner_world_mapper
+   git clone https://github.com/imthanaponlert121/breadwinner_world_mapper.git
    cd breadwinner_world_mapper
 
 2. **Install requirement(s)**
@@ -57,6 +57,12 @@ Save Mapped Picture option: Once clicked, it will let you choose a filepath to s
    ![image](https://github.com/user-attachments/assets/1f61583a-f061-4517-9f7c-2c666821d6ad)
    Change it to where your executable is located.
 
+5. **Run the Script**
+
+   Open CMD, go to the directory and execute the following:
+  ```bash
+   python.exe main.py
+   
   ### Changing Map Image
 
   In case if you want to change the map to your town, follow this step:
@@ -71,7 +77,7 @@ Save Mapped Picture option: Once clicked, it will let you choose a filepath to s
 
 This program is developed to help people find pearl more easily, I only use basic Turtle and Tkinter Module to draw and locate the pearl, it's all manually and it does not inject anything to Roblox.
 
-If you link my tools, please consider give me a star, and feel free to give me comment, as I'm just a beginner.
+If you like my tool, please consider give me a star, and feel free to give me comment, as I'm just a beginner.
 
 Thank you for reading
 - Thanapon L.
