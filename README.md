@@ -14,12 +14,12 @@ Image Location (Discord): [EcceDees_Discord_Zetex_attachment](https://discord.co
 
 ## ✨ Options (What It Can Do)
 
-- 🎯 **Player Location Finder**: Find the current player location via the coordination (x,y)
-- 🎨 **Pearl Mapping**: Map pearl location onto the image, using the color, coordination (x,y) and note (optional)
-- 📏 **Save Mapped Picture**: Save the current map image, into png (Filepath selection)
+- 🗺️ **Player Location Finder**: Find the current player location via the coordination (x,y)
+- 🖊️ **Pearl Mapping**: Map pearl location onto the image, using the color, coordination (x,y) and note (optional)
+- 💾 **Save Mapped Picture**: Save the current map image, into png (Filepath selection)
 
   
-## ⚙️ Showcasing 
+## 🖥️ Showcasing 
 
 ![image](https://github.com/user-attachments/assets/51b92d02-fa8a-4198-a54c-5084243df70e)
 
@@ -60,7 +60,7 @@ Save Mapped Picture option: Once clicked, it will let you choose a filepath to s
 5. **Run the Script**
 
    Open CMD, go to the directory and execute the following:
-  ```bash
+    ```bash
    python.exe main.py
    
   ### Changing Map Image
@@ -73,7 +73,7 @@ Save Mapped Picture option: Once clicked, it will let you choose a filepath to s
 2. **Image Independencies**
    Make sure to rename the images to **map.png** and put it in the same directory as the script is.
 
-## ⚙️ Note
+## 🗒️ Note
 
 This program is developed to help people find pearl more easily, I only use basic Turtle and Tkinter Module to draw and locate the pearl, it's all manually and it does not inject anything to Roblox.
 
